@@ -1,0 +1,8 @@
+speechrecognition
+pyaudio
+torch
+gtts
+transformers
+soundfile
+librosa
+
