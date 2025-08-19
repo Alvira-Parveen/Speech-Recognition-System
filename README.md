@@ -42,7 +42,7 @@ python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
 
-### **2) Install dependencies**
+### 2) Install dependencies
 
 pip install -r requirements.txt
 
