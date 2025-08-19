@@ -37,7 +37,7 @@ This shows clear **progress**: from an API-based script to a **model-based** off
 
 ### 1) Create & activate a virtual environment
 
-```bash
+bash
 python3 -m venv venv
 source venv/bin/activate
 python -m pip install --upgrade pip
@@ -50,13 +50,13 @@ If you plan to regenerate the sample audio from text, you’ll also need :
 - System tool: ffmpeg (macOS: brew install ffmpeg)
 - Python packages: gTTS and pydub
 
-### **3) Generate synthetic audio (no need to record your voice)**  
+### 3) Generate synthetic audio (no need to record your voice)**  
 
 python src/generate_audio.py
 
 - This creates a clean data/sample.wav (16 kHz) for the demo.
 
-### **4) Run transcription**  
+### 4) Run transcription**  
 
 python src/speech_to_text_wav2vec.py
 
