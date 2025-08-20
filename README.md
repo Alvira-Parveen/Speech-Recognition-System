@@ -62,7 +62,7 @@ python src/speech_to_text_wav2vec.py
 
 ---
 
-##🧠 How it works (brief)
+## 🧠 How it works (brief)
 
 - Load pre-trained facebook/wav2vec2-base-960h (ASR model).
 
@@ -72,7 +72,7 @@ python src/speech_to_text_wav2vec.py
 
 ---
 
-##⚠️ Notes & Tips
+## ⚠️ Notes & Tips
 
 If you see a warning about Wav2Vec2Tokenizer being deprecated, it’s fine; the code uses the recommended Wav2Vec2Processor version.
 
